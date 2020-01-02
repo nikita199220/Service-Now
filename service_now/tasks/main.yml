@@ -8,7 +8,7 @@
     instance: "{{ sn_instance }}"
     data:
       severity: "{{ sn_severity }}"
-      priority: "{{ sn_priority }}"
+      Priority: "{{ sn_priority }}"
       short_description: "This is to check creation of Incident using Ansible"
       error: Unreachable
   register: new_incident
