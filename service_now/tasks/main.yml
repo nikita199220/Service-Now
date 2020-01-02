@@ -11,7 +11,8 @@
       severity: "{{ sn_severity }}"
       Urgency: "{{ sn_priority }}"
       short_description: "This is to check state  creation of Incident using Ansible"
-      Error: Unreachable
+      error: Unreachable
+      assigned_to: nikita
   register: new_incident
 
 - debug: 
