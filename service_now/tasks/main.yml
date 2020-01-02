@@ -10,9 +10,10 @@
       state: present
       severity: "{{ sn_severity }}"
       Urgency: "{{ sn_priority }}"
-      short_description: "This is to check state  creation of Incident using Ansible"
+      short_description: "Unwanted packag on server"
       error: Unreachable
       assigned_to: nikita
+      Caller: test
   register: new_incident
 
 - debug: 
