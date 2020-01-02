@@ -8,9 +8,9 @@
     instance: "{{ sn_instance }}"
     data:
       severity: "{{ sn_severity }}"
-      Priority: "{{ sn_priority }}"
+      Urgency: "{{ sn_priority }}"
       short_description: "This is to check creation of Incident using Ansible"
-      error: Unreachable
+      Error: Unreachable
   register: new_incident
 
 - debug: 
