@@ -10,6 +10,7 @@
       severity: "{{ sn_severity }}"
       priority: "{{ sn_priority }}"
       short_description: "This is a test opened by Ansible"
+      error: Unreachable
   register: new_incident
 
 - debug: 
