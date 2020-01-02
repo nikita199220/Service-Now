@@ -11,7 +11,7 @@
       severity: "{{ sn_severity }}"
       Urgency: "{{ sn_priority }}"
       short_description: "Unwanted packag on server"
-      error: Unreachable
+      u_string_6: "{{ error_field }}"
       assigned_to: nikita
       Caller: test
   register: new_incident
