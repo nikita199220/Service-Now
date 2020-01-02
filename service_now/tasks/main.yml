@@ -9,7 +9,7 @@
     data:
       severity: "{{ sn_severity }}"
       priority: "{{ sn_priority }}"
-      short_description: "This is a test opened by Ansible"
+      short_description: "This is to check creation of Incident using Ansible"
       error: Unreachable
   register: new_incident
 
