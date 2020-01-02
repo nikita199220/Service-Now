@@ -7,9 +7,10 @@
     password: "{{ sn_password }}"
     instance: "{{ sn_instance }}"
     data:
+      state: present
       severity: "{{ sn_severity }}"
       Urgency: "{{ sn_priority }}"
-      short_description: "This is to check creation of Incident using Ansible"
+      short_description: "This is to check state  creation of Incident using Ansible"
       Error: Unreachable
   register: new_incident
 
