@@ -4,4 +4,4 @@
 # connection: localhost
   gather_facts: yes
   roles:
-    - service_now
+    - create_incident_service_now
